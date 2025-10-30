@@ -128,12 +128,12 @@ export default defineConfig({
   locales: {
     root: { label: 'English', lang: 'en-US', dir: 'ltr' },
     zh: { label: '简体中文', lang: 'zh-Hans', dir: 'ltr' },
-    pt: { label: 'Português', lang: 'pt-BR', dir: 'ltr' },
-    ru: { label: 'Русский', lang: 'ru-RU', dir: 'ltr' },
-    es: { label: 'Español', lang: 'es', dir: 'ltr' },
-    ko: { label: '한국어', lang: 'ko-KR', dir: 'ltr' },
-    fa: { label: 'فارسی', lang: 'fa-IR', dir: 'rtl' },
-    ja: { label: '日本語', lang: 'ja', dir: 'ltr' }
+    //pt: { label: 'Português', lang: 'pt-BR', dir: 'ltr' },
+    //ru: { label: 'Русский', lang: 'ru-RU', dir: 'ltr' },
+    //es: { label: 'Español', lang: 'es', dir: 'ltr' },
+    //ko: { label: '한국어', lang: 'ko-KR', dir: 'ltr' },
+    //fa: { label: 'فارسی', lang: 'fa-IR', dir: 'rtl' },
+    //ja: { label: '日本語', lang: 'ja', dir: 'ltr' }
   },
 
   vite: {
