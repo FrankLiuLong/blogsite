@@ -90,6 +90,7 @@ function nav(): DefaultTheme.NavItem[] {
   ]
 }
 
+/*
 function sidebarGuide(): DefaultTheme.SidebarItem[] {
   return [
     {
@@ -134,8 +135,9 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     },
     { text: '配置和 API 参考', base: '/zh/reference/', link: 'site-config' }
   ]
-}
+}*/
 
+/*
 function sidebarReference(): DefaultTheme.SidebarItem[] {
   return [
     {
@@ -168,6 +170,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
     }
   ]
 }
+*/
 
 function searchOptions(): Partial<DefaultTheme.AlgoliaSearchOptions> {
   return {
