@@ -10,9 +10,11 @@ export default defineAdditionalConfig({
   themeConfig: {
     nav: nav(),
 
+    //-顶部菜单栏配置
     sidebar: {
       '/guide/': { base: '/guide/', items: sidebarGuide() },
       '/reference/': { base: '/reference/', items: sidebarReference() },
+      '/CustomCase/': { base: '/CustomCase/', items: sidebarReference() },
       '/blog/': { base: '/blog/', items: sidebarReference() }
     },
 
@@ -23,11 +25,12 @@ export default defineAdditionalConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Evan You'
+      copyright: 'Copyright © 2019-present 刘清斌'
     }
   }
 })
 
+//-顶部菜单栏配置
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
@@ -41,9 +44,14 @@ function nav(): DefaultTheme.NavItem[] {
       activeMatch: '/reference/'
     },
     {
+      text: '定制案例',
+      link: '/zh/CustomCase/site-config',
+      activeMatch: '/CustomCase/'
+    },
+    {
       text: '博客',
       link: '/zh/blog/site-config',
-      activeMatch: '/zh/blog/'
+      activeMatch: '/blog/'
     },
     {
       text: pkg.version,
