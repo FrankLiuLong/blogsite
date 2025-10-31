@@ -15,9 +15,9 @@ const prod = !!process.env.NETLIFY
 export default defineConfig({
   title: '赛音电子',
 
-  rewrites: {
-    'en/:rest*': ':rest*'
-  },
+  //rewrites: {
+  //  'en/:rest*': ':rest*'
+  //},
 
   lastUpdated: true,
   cleanUrls: true,
@@ -126,9 +126,9 @@ export default defineConfig({
   },
 
   locales: {
-    root: { label: '简体中文', lang: 'zh-Hans', dir: 'ltr' },
-    en: { label: 'English', lang: 'en-US', dir: 'ltr' },
-    
+    root: { label: '简体中文', lang: 'zh-Hans', dir: 'ltr' }
+    //en: { label: 'English', lang: 'en-US', dir: 'ltr' },
+
     //pt: { label: 'Português', lang: 'pt-BR', dir: 'ltr' },
     //ru: { label: 'Русский', lang: 'ru-RU', dir: 'ltr' },
     //es: { label: 'Español', lang: 'es', dir: 'ltr' },
