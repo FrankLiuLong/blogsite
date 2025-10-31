@@ -71,6 +71,11 @@ function nav(): DefaultTheme.NavItem[] {
       activeMatch: '/zh/reference/'
     },
     {
+      text: '博客',
+      link: '/zh/blog/site-config',
+      activeMatch: '/zh/blog/'
+    },
+    {
       text: '版本',
       items: [
         {
