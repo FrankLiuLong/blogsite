@@ -14,6 +14,7 @@ const prod = !!process.env.NETLIFY
 
 export default defineConfig({
   title: '赛音电子',
+  lang: 'zh-CN', //语言，可选 en-US
 
   rewrites: {
     'zh/:rest*': ':rest*'

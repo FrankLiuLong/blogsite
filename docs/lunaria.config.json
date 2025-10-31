@@ -23,7 +23,7 @@
   "locales": [
     {
       "label": "English",
-      "lang": "zh"
+      "lang": "en"
     }
   ],
   "outDir": ".vitepress/dist/_translations",
