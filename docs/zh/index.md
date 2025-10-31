@@ -9,14 +9,16 @@ hero:
     - theme: brand
       text: 什么是 VitePress?
       link: ./guide/what-is-vitepress
+
     - theme: alt
       text: 快速开始
       link: ./guide/getting-started
+      
     - theme: alt
       text: GitHub
       link: https://github.com/vuejs/vitepress
   image:
-      src: /vitepress-logo-large.svg
+      src: /FighterJet.jpg
       alt: VitePress
 
 features:

@@ -35,28 +35,17 @@ export default defineConfig({
       }
     ],
     config(md) {
+      //--代码复制框提示
       // TODO: remove when https://github.com/vuejs/vitepress/issues/4431 is fixed
       const fence = md.renderer.rules.fence!
       md.renderer.rules.fence = function (tokens, idx, options, env, self) {
         const { localeIndex = 'root' } = env
         const codeCopyButtonTitle = (() => {
           switch (localeIndex) {
-            case 'es':
-              return 'Copiar código'
-            case 'fa':
-              return 'کپی کد'
-            case 'ko':
-              return '코드 복사'
-            case 'pt':
-              return 'Copiar código'
-            case 'ru':
-              return 'Скопировать код'
-            case 'zh':
-              return '复制代码'
-            case 'ja':
-              return 'コードをコピー'
-            default:
+            case 'en':
               return 'Copy code'
+            default:
+              return '复制代码'
           }
         })()
         return fence(tokens, idx, options, env, self).replace(
@@ -109,9 +98,9 @@ export default defineConfig({
   themeConfig: {
     logo: { src: '/vitepress-logo-mini.svg', width: 24, height: 24 },
 
-    socialLinks: [
+    /*socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ],
+    ],*/
 
     search: {
       provider: 'algolia',
