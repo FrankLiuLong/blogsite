@@ -62,49 +62,46 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebarGuide(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'Introduction',
+      text: '简介',
       collapsed: false,
       items: [
-        { text: 'What is VitePress?', link: 'what-is-vitepress' },
-        { text: 'Getting Started', link: 'getting-started' },
-        { text: 'Routing', link: 'routing' },
-        { text: 'Deploy', link: 'deploy' }
+        { text: '什么是 VitePress？', link: 'what-is-vitepress' },
+        { text: '快速开始', link: 'getting-started' },
+        { text: '路由', link: 'routing' },
+        { text: '部署', link: 'deploy' }
       ]
     },
     {
-      text: 'Writing',
+      text: '写作',
       collapsed: false,
       items: [
-        { text: 'Markdown Extensions', link: 'markdown' },
-        { text: 'Asset Handling', link: 'asset-handling' },
-        { text: 'Frontmatter', link: 'frontmatter' },
-        { text: 'Using Vue in Markdown', link: 'using-vue' },
-        { text: 'Internationalization', link: 'i18n' }
+        { text: 'Markdown 扩展', link: 'markdown' },
+        { text: '资源处理', link: 'asset-handling' },
+        { text: 'frontmatter', link: 'frontmatter' },
+        { text: '在 Markdown 使用 Vue', link: 'using-vue' },
+        { text: '国际化', link: 'i18n' }
       ]
     },
     {
-      text: 'Customization',
+      text: '自定义',
       collapsed: false,
       items: [
-        { text: 'Using a Custom Theme', link: 'custom-theme' },
-        {
-          text: 'Extending the Default Theme',
-          link: 'extending-default-theme'
-        },
-        { text: 'Build-Time Data Loading', link: 'data-loading' },
-        { text: 'SSR Compatibility', link: 'ssr-compat' },
-        { text: 'Connecting to a CMS', link: 'cms' }
+        { text: '自定义主题', link: 'custom-theme' },
+        { text: '扩展默认主题', link: 'extending-default-theme' },
+        { text: '构建时数据加载', link: 'data-loading' },
+        { text: 'SSR 兼容性', link: 'ssr-compat' },
+        { text: '连接 CMS', link: 'cms' }
       ]
     },
     {
-      text: 'Experimental',
+      text: '实验性功能',
       collapsed: false,
       items: [
-        { text: 'MPA Mode', link: 'mpa-mode' },
-        { text: 'Sitemap Generation', link: 'sitemap-generation' }
+        { text: 'MPA 模式', link: 'mpa-mode' },
+        { text: 'sitemap 生成', link: 'sitemap-generation' }
       ]
     },
-    { text: 'Config & API Reference', base: '/reference/', link: 'site-config' }
+    { text: '配置和 API 参考', base: '/zh/reference/', link: 'site-config' }
   ]
 }
 
