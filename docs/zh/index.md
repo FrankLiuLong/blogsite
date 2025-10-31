@@ -18,7 +18,7 @@ hero:
       text: GitHub
       link: https://github.com/vuejs/vitepress
   image:
-      src: /FighterJet.jpg
+      src: /Helicopter.svg
       alt: VitePress
 
 features:
