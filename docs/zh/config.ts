@@ -71,7 +71,7 @@ function nav(): DefaultTheme.NavItem[] {
       activeMatch: '/zh/reference/'
     },
     {
-      text: pkg.version,
+      text: '版本',
       items: [
         {
           text: '1.6.4',
