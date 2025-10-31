@@ -12,7 +12,8 @@ export default defineAdditionalConfig({
 
     sidebar: {
       '/guide/': { base: '/guide/', items: sidebarGuide() },
-      '/reference/': { base: '/reference/', items: sidebarReference() }
+      '/reference/': { base: '/reference/', items: sidebarReference() },
+      '/blog/': { base: '/blog/', items: sidebarReference() }
     },
 
     editLink: {
@@ -38,6 +39,11 @@ function nav(): DefaultTheme.NavItem[] {
       text: '参考',
       link: '/reference/site-config',
       activeMatch: '/reference/'
+    },
+    {
+      text: '博客',
+      link: '/zh/blog/site-config',
+      activeMatch: '/zh/blog/'
     },
     {
       text: pkg.version,

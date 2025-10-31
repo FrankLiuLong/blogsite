@@ -3,7 +3,7 @@ import { defineAdditionalConfig, type DefaultTheme } from 'vitepress'
 
 const require = createRequire(import.meta.url)
 const pkg = require('vitepress/package.json')
-
+/*
 export default defineAdditionalConfig({
   description: '由 Vite 和 Vue 驱动的静态站点生成器',
 
@@ -56,8 +56,8 @@ export default defineAdditionalConfig({
     darkModeSwitchTitle: '切换到深色模式',
     skipToContentLabel: '跳转到内容'
   }
-})
-
+}) */
+/*
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
@@ -93,7 +93,7 @@ function nav(): DefaultTheme.NavItem[] {
       ]
     }
   ]
-}
+}*/
 
 /*
 function sidebarGuide(): DefaultTheme.SidebarItem[] {
