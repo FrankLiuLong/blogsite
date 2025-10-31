@@ -30,12 +30,12 @@ export default defineAdditionalConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
-      text: 'Guide',
+      text: '指南',
       link: '/guide/what-is-vitepress',
       activeMatch: '/guide/'
     },
     {
-      text: 'Reference',
+      text: '参考',
       link: '/reference/site-config',
       activeMatch: '/reference/'
     },
