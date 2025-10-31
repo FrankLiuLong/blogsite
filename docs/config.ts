@@ -45,12 +45,12 @@ function nav(): DefaultTheme.NavItem[] {
     },
     {
       text: '定制案例',
-      link: '/zh/CustomCase/site-config',
+      link: '/CustomCase/site-config',
       activeMatch: '/CustomCase/'
     },
     {
       text: '博客',
-      link: '/zh/blog/site-config',
+      link: '/blog/site-config',
       activeMatch: '/blog/'
     },
     {
