@@ -17,11 +17,11 @@ export default defineAdditionalConfig({
       '/CustomCase/': { base: '/CustomCase/', items: sidebarCustomCase() },
       '/blog/': { base: '/blog/', items: sidebarBlog() }
     },
-
+    /*
     editLink: {
       pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
-    },
+    },*/
 
     footer: {
       message: 'Released under the MIT License.',
@@ -52,23 +52,6 @@ function nav(): DefaultTheme.NavItem[] {
       text: '博客',
       link: '/blog/site-config',
       activeMatch: '/blog/'
-    },
-    {
-      text: pkg.version,
-      items: [
-        {
-          text: '1.6.4',
-          link: 'https://vuejs.github.io/vitepress/v1/'
-        },
-        {
-          text: 'Changelog',
-          link: 'https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md'
-        },
-        {
-          text: 'Contributing',
-          link: 'https://github.com/vuejs/vitepress/blob/main/.github/contributing.md'
-        }
-      ]
     }
   ]
 }
