@@ -13,7 +13,7 @@ import llmstxt from 'vitepress-plugin-llms'
 const prod = !!process.env.NETLIFY
 
 export default defineConfig({
-  title: 'VitePress',
+  title: '赛音电子',
 
   rewrites: {
     'en/:rest*': ':rest*'
@@ -126,8 +126,9 @@ export default defineConfig({
   },
 
   locales: {
-    root: { label: 'English', lang: 'en-US', dir: 'ltr' },
-    zh: { label: '简体中文', lang: 'zh-Hans', dir: 'ltr' },
+    root: { label: '简体中文', lang: 'zh-Hans', dir: 'ltr' },
+    en: { label: 'English', lang: 'en-US', dir: 'ltr' },
+    
     //pt: { label: 'Português', lang: 'pt-BR', dir: 'ltr' },
     //ru: { label: 'Русский', lang: 'ru-RU', dir: 'ltr' },
     //es: { label: 'Español', lang: 'es', dir: 'ltr' },
