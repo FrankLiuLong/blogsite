@@ -102,7 +102,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
   ]
 }
 
-function sidebarReference(): DefaultTheme.SidebarItem[] {
+function sidebarProduct(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: '参考',
