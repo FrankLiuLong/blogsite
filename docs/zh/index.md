@@ -5,21 +5,21 @@ hero:
   name: 赛音电子
   text: 专注测试测量、数据采集
   tagline: 控制器|机箱|板卡|调理模块|定制开发
-  actions:
-    - theme: brand
-      text: 什么是 VitePress?
-      link: ./guide/what-is-vitepress
+  [//]: actions:
+  [//]:  - theme: brand
+  [//]:    text: 什么是 VitePress?
+  [//]:    link: ./guide/what-is-vitepress
 
-    - theme: alt
-      text: 快速开始
-      link: ./guide/getting-started
+  [//]:  - theme: alt
+  [//]:    text: 快速开始
+  [//]:    link: ./guide/getting-started
       
-    - theme: alt
-      text: GitHub
-      link: https://github.com/vuejs/vitepress
+  [//]:  - theme: alt
+  [//]:    text: GitHub
+  [//]:    link: https://github.com/vuejs/vitepress
   image:
       src: /J16.svg
-      alt: VitePress
+      alt: SintecLogo
 
 features:
   - icon: 📝
