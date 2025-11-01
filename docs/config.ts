@@ -61,7 +61,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
     {
       text: '产品选型',
       items: [
-        { text: '站点配置', link: 'site-config' },
+        { text: '站点配置', link: 'site-config' }
         
       ]
     }
@@ -136,7 +136,7 @@ function sidebarCustomCase(): DefaultTheme.SidebarItem[] {
       items: [     
         { text: 'SX24C01.UG-PXI程控电阻桥板卡', link: '10-Arinc429' },
         { text: 'SS25001-多路复用开关板', link: 'site-config' } ,
-        { text: '基于K7的PXI&PXIe数据处理板（Kintex-7 FMC载板）', link: 'site-config' } 
+        { text: '基于K7的PXI&PXIe数据处理板（Kintex-7 FMC载板）', link: 'site-config' } ,
         { text: '基于PCI9054的通用CPCI/PXI开发板', link: 'site-config' }
       ]
     },
