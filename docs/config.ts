@@ -12,8 +12,8 @@ export default defineAdditionalConfig({
 
     //-顶部菜单栏配置
     sidebar: {
+      '/product/': { base: '/product/', items: sidebarProduct() },
       '/guide/': { base: '/guide/', items: sidebarGuide() },
-      '/reference/': { base: '/reference/', items: sidebarReference() },
       '/CustomCase/': { base: '/CustomCase/', items: sidebarCustomCase() },
       '/blog/': { base: '/blog/', items: sidebarBlog() }
     },
@@ -34,15 +34,15 @@ export default defineAdditionalConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     {
-      text: '指南',
-      link: '/guide/what-is-vitepress',
-      activeMatch: '/guide/'
+      text: '产品选型',
+      link: '/product/site-config',
+      activeMatch: '/product/'
     },
     {
-      text: '参考',
-      link: '/reference/site-config',
-      activeMatch: '/reference/'
-    },
+      text: '用户手册',
+      link: '/guide/what-is-vitepress',
+      activeMatch: '/guide/'
+    },    
     {
       text: '定制案例',
       link: '/CustomCase/site-config',
@@ -138,9 +138,27 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
 function sidebarCustomCase(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: '定制案例',
-      items: [{ text: '站点配置', link: 'site-config' }]
-    }
+      text: '非标测试设备',
+      collapsed: false,
+      items: [     
+        { text: '某型号联试测试系统', link: '10-Arinc429' },
+        { text: '某型号DD测试系统', link: 'site-config' },
+        { text: '某武器系统地面系统模拟单元', link: 'site-config' },
+        { text: '数据存储分析模块', link: 'site-config' },
+        { text: '图像数据记录及控制组件', link: 'site-config' },
+        { text: '引信宽带信号处理与评估设备', link: 'site-config' }
+      ]
+    },
+    {
+      text: '定制板卡',
+      collapsed: false,
+      items: [     
+        { text: 'SX24C01.UG-PXI程控电阻桥板卡', link: '10-Arinc429' },
+        { text: 'SS25001-多路复用开关板', link: 'site-config' } ,
+        { text: '基于K7的PXI&PXIe数据处理板（Kintex-7 FMC载板）', link: 'site-config' } 
+        { text: '基于PCI9054的通用CPCI/PXI开发板', link: 'site-config' }
+      ]
+    },
   ]
 }
 
