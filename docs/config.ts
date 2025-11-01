@@ -147,8 +147,36 @@ function sidebarCustomCase(): DefaultTheme.SidebarItem[] {
 function sidebarBlog(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: '博客',
-      items: [{ text: '站点配置', link: 'site-config' }]
+      text: '总线通信',
+      collapsed: false,
+      items: [     
+        { text: 'Arinc429总线解析', link: '10-Arinc429' },
+        { text: '站点配置', link: 'site-config' }  
+      ]
+    },
+    {
+      text: 'FPGA',
+      collapsed: false,
+      items: [     
+        { text: 'Arinc429总线解析', link: '10-Arinc429' },
+        { text: '站点配置', link: 'site-config' }  
+      ]
+    },
+    {
+      text: '硬件电路',
+      collapsed: false,
+      items: [     
+        { text: 'Arinc429总线解析', link: '10-Arinc429' },
+        { text: '站点配置', link: 'site-config' }  
+      ]
+    },
+    {
+      text: '软件编程',
+      collapsed: false,
+      items: [     
+        { text: 'Arinc429总线解析', link: '10-Arinc429' },
+        { text: '站点配置', link: 'site-config' }  
+      ]
     }
   ]
 }
