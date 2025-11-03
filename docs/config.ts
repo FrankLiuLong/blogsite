@@ -15,7 +15,7 @@ export default defineAdditionalConfig({
       '/product/': { base: '/product/', items: sidebarProduct() },
       '/guide/': { base: '/guide/', items: sidebarGuide() },
       '/CustomCase/': { base: '/CustomCase/', items: sidebarCustomCase() },
-      '/blog/': { base: '/blog/', items: sidebarBlog() }
+      '/blog/': { base: '/blog/', items: sidebarBlog() },
       '/contact/': { base: '/blog/', items: sidebarContact() }
     },
     /*
