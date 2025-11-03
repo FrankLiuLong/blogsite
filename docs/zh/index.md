@@ -7,16 +7,21 @@ hero:
   tagline: 控制器|机箱|板卡|调理模块|定制开发
   actions:
    - theme: brand
-     text: 什么是 VitePress?
-     link: ./guide/what-is-vitepress
+     text: 产品选型
+     link: ./product/site-config
 
-   - theme: alt
-     text: 快速开始
+   - theme: brand
+     text: 用户手册
      link: ./guide/getting-started
       
-   - theme: alt
-     text: GitHub
-     link: https://github.com/vuejs/vitepress
+   - theme: brand
+     text: 定制案例
+     link: ./CustomCase/site-config
+
+   - theme: brand
+     text: 博客
+     link: ./blog/site-config
+
   image:
       src: /J16.svg
       alt: SintecLogo

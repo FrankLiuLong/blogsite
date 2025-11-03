@@ -49,7 +49,7 @@ function nav(): DefaultTheme.NavItem[] {
       activeMatch: '/CustomCase/'
     },
     {
-      text: '博客',
+      text: '技术博客',
       link: '/blog/site-config',
       activeMatch: '/blog/'
     }
@@ -132,8 +132,8 @@ function sidebarBlog(): DefaultTheme.SidebarItem[] {
       text: '硬件电路',
       collapsed: false,
       items: [     
-        { text: 'Arinc429总线解析', link: '10-Arinc429' },
-        { text: '站点配置', link: 'site-config' }  
+        { text: 'ZYNQ7035、7045电源设计', link: '30-ZYQN7035_45_POWER' }
+         
       ]
     },
     {
