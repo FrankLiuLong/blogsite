@@ -19,8 +19,12 @@ hero:
      link: ./CustomCase/site-config
 
    - theme: brand
-     text: 博客
-     link: ./blog/site-config
+     text: 技术博客
+     link: ./blog/10-Arinc429
+
+   - theme: brand
+     text: 联系我们
+     link: ./blog/10-Arinc429
 
   image:
       src: /J16.svg

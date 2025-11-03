@@ -16,6 +16,7 @@ export default defineAdditionalConfig({
       '/guide/': { base: '/guide/', items: sidebarGuide() },
       '/CustomCase/': { base: '/CustomCase/', items: sidebarCustomCase() },
       '/blog/': { base: '/blog/', items: sidebarBlog() }
+      '/contact/': { base: '/blog/', items: sidebarContact() }
     },
     /*
     editLink: {
@@ -50,8 +51,13 @@ function nav(): DefaultTheme.NavItem[] {
     },
     {
       text: '技术博客',
-      link: '/blog/site-config',
+      link: '/blog/10-Arinc429',
       activeMatch: '/blog/'
+    },
+    {
+      text: '联系我们',
+      link: '/blog/10-Arinc429',
+      activeMatch: '/contact/'
     }
   ]
 }
@@ -107,6 +113,13 @@ function sidebarCustomCase(): DefaultTheme.SidebarItem[] {
         { text: '基于PCI9054的通用CPCI/PXI开发板', link: 'site-config' }
       ]
     },
+    {
+      text: '定制模块',
+      collapsed: false,
+      items: [     
+        { text: '数据采集模块', link: 'site-config' }
+      ]
+    }
   ]
 }
 
@@ -144,5 +157,11 @@ function sidebarBlog(): DefaultTheme.SidebarItem[] {
         { text: '站点配置', link: 'site-config' }  
       ]
     }
+  ]
+}
+
+function sidebarContact(): DefaultTheme.SidebarItem[] {
+  return [
+    { text: '什么是 VitePress？', link: 'what-is-vitepress' }   
   ]
 }
