@@ -8,7 +8,7 @@ hero:
   actions:
    - theme: brand
      text: 产品选型
-     link: ./product/site-config
+     link: ./product/00-Contents
 
    - theme: brand
      text: 用户手册
@@ -16,7 +16,7 @@ hero:
       
    - theme: brand
      text: 定制案例
-     link: ./CustomCase/site-config
+     link: ./CustomCase/00-OverView
 
    - theme: brand
      text: 技术博客

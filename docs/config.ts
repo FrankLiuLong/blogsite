@@ -95,7 +95,7 @@ function sidebarCustomCase(): DefaultTheme.SidebarItem[] {
       text: '非标测试设备',
       collapsed: false,
       items: [     
-        { text: '某型号联试测试系统', link: 'site-config' },
+        { text: '某型号联试测试系统', link: '00-OverView' },
         { text: '某型号DD测试系统', link: 'site-config' },
         { text: '某武器系统地面系统模拟单元', link: 'site-config' },        
         //{ text: '图像数据记录及控制组件', link: 'site-config' },
@@ -106,19 +106,19 @@ function sidebarCustomCase(): DefaultTheme.SidebarItem[] {
       text: '定制板卡',
       collapsed: false,
       items: [     
-        { text: 'SX24C01.UG-PXI程控电阻桥板卡', link: 'site-config' },
-        { text: 'SS25001-多路复用开关板', link: 'site-config' } ,
-        { text: '基于K7的PXI&PXIe数据处理板', link: 'site-config' } ,
-        { text: '基于PCI9054的通用CPCI/PXI开发板', link: 'site-config' }
+        { text: 'SX24C01.UG-PXI程控电阻桥板卡', link: '20-SX24C01' },
+        { text: 'SS25001-多路复用开关板', link: '21-SS25001' } ,
+        { text: '基于K7的PXI&PXIe数据处理板', link: '22-PXI&PXIe-K7' } ,
+        { text: '基于PCI9054的通用CPCI/PXI开发板', link: '23-PXI-PCI9054' }
       ]
     },
     {
       text: '定制模块',
       collapsed: false,
       items: [     
-        { text: '数据采集模块', link: 'site-config' },
-        { text: 'CML图像数据记录仪', link: 'site-config' },
-        { text: '数据存储分析模块', link: 'site-config' }
+        { text: '数据采集模块', link: '30-DataAcqModule' },
+        { text: 'CML图像数据记录仪', link: '31-CMLModule' },
+        { text: '数据存储分析模块', link: '32-DataStorageAnalysisModule' }
       ]
     }
   ]
