@@ -199,16 +199,18 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
     skipToContentLabel: '跳转到内容',
 
-    /*search: {
+    search: {
       provider: 'algolia',
       options: {
         appId: '8J64VVRP8K',
         apiKey: '52f578a92b88ad6abde815aae2b0ad7c',
         indexName: 'vitepress',
-        askAi: 'YaVSonfX5bS8'
+        askAi: 'YaVSonfX5bS8',
+        // 合并搜索选项
+        ...searchOptions()
       }
-    },*/
-    search: { options: searchOptions() }
+    }
+    //search: { options: searchOptions() }
 
     //carbonAds: { code: 'CEBDT27Y', placement: 'vuejsorg' }
   },
