@@ -24,7 +24,7 @@ hero:
 
    - theme: brand
      text: 联系我们
-     link: ./blog/10-Arinc429
+     link: ./other/01-ContactUs
 
   image:
       src: /J16.svg
