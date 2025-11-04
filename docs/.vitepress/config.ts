@@ -102,6 +102,11 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],*/
 
+    //--LiuQB 251104
+    lastUpdated: {
+      text: '最后更新于'
+    },
+
     search: {
       provider: 'algolia',
       options: {

@@ -36,7 +36,7 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     {
       text: '产品选型',
-      link: '/product/site-config',
+      link: '/product/00-Contents',
       activeMatch: '/product/'
     },
     {
@@ -67,7 +67,7 @@ function sidebarProduct(): DefaultTheme.SidebarItem[] {
     {
       text: '产品选型',
       items: [
-        { text: '站点配置', link: 'site-config' }
+        { text: '选型目录', link: '00-Contents' }
         
       ]
     }
@@ -97,9 +97,8 @@ function sidebarCustomCase(): DefaultTheme.SidebarItem[] {
       items: [     
         { text: '某型号联试测试系统', link: 'site-config' },
         { text: '某型号DD测试系统', link: 'site-config' },
-        { text: '某武器系统地面系统模拟单元', link: 'site-config' },
-        { text: '数据存储分析模块', link: 'site-config' },
-        { text: '图像数据记录及控制组件', link: 'site-config' },
+        { text: '某武器系统地面系统模拟单元', link: 'site-config' },        
+        //{ text: '图像数据记录及控制组件', link: 'site-config' },
         { text: '引信宽带信号处理与评估设备', link: 'site-config' }
       ]
     },
@@ -117,7 +116,9 @@ function sidebarCustomCase(): DefaultTheme.SidebarItem[] {
       text: '定制模块',
       collapsed: false,
       items: [     
-        { text: '数据采集模块', link: 'site-config' }
+        { text: '数据采集模块', link: 'site-config' },
+        { text: 'CML图像数据记录仪', link: 'site-config' },
+        { text: '数据存储分析模块', link: 'site-config' }
       ]
     }
   ]
@@ -146,7 +147,7 @@ function sidebarBlog(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [     
         { text: 'ZYNQ7035、7045电源设计', link: '30-ZYQN7035_45_POWER' }
-         
+ 
       ]
     },
     {
