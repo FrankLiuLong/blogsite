@@ -56,7 +56,7 @@ function nav(): DefaultTheme.NavItem[] {
     },
     {
       text: '联系我们',
-      link: '/blog/10-Arinc429',
+      link: '/other/01-ContactUs',
       activeMatch: '/contact/'
     }
   ]

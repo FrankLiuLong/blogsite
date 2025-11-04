@@ -177,6 +177,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
 }
 */
 
+/*
 function searchOptions(): Partial<DefaultTheme.AlgoliaSearchOptions> {
   return {
     placeholder: '搜索文档',
@@ -252,3 +253,4 @@ function searchOptions(): Partial<DefaultTheme.AlgoliaSearchOptions> {
     }
   }
 }
+*/
