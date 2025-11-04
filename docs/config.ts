@@ -25,8 +25,8 @@ export default defineAdditionalConfig({
     },*/
 
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present 刘清斌'
+      message: '基于 MIT 许可发布',
+      copyright: '版权所有 © 2019-至今 刘清斌'
     }
   }
 })
