@@ -46,7 +46,7 @@ function nav(): DefaultTheme.NavItem[] {
     },    
     {
       text: '定制案例',
-      link: '/CustomCase/site-config',
+      link: '/CustomCase/00-OverView',
       activeMatch: '/CustomCase/'
     },
     {
